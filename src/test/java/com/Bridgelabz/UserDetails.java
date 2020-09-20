@@ -9,4 +9,9 @@ public class UserDetails {
         Pattern pattern = Pattern.compile(NAME_PATTERN);
         return pattern.matcher(FirstName).matches();
     }
+
+    public boolean checkLastName(String LastName) {
+        Pattern pattern = Pattern.compile(NAME_PATTERN);
+        return pattern.matcher(LastName).matches();
+    }
 }
