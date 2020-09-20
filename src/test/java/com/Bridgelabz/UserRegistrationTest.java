@@ -26,5 +26,4 @@ public class UserRegistrationTest {
         Assert.assertEquals(true, result);
     }
 
-
 }
