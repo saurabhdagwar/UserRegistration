@@ -5,6 +5,7 @@ import org.junit.Test;
 
 
 public class UserRegistrationTest {
+
     @Test
     public void FirstName_havingMinimum3char_returnTrue() {
         UserDetails userDetails = new UserDetails();
@@ -33,4 +34,10 @@ public class UserRegistrationTest {
         Assert.assertEquals(true,result);
     }
 
+    @Test
+    public void Password_pattern_returnTrue() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkPassword("Pass@123");
+        Assert.assertEquals(true,result);
+    }
 }
