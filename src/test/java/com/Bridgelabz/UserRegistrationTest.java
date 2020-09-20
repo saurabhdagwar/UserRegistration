@@ -9,14 +9,36 @@ public class UserRegistrationTest {
     public void FirstName_havingMinimum3char_returnTrue() {
         UserDetails userDetails = new UserDetails();
         boolean result = userDetails.checkFirstName("Saurabh");
-        Assert.assertEquals(true, result);
+        Assert.assertEquals(true,result);
     }
+
+    @Test
+    public void FirstName_havingMinimum3char_returnFalse() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkFirstName("saurabh");
+        Assert.assertEquals(false, result);
+    }
+
+    @Test
+    public void FirstName_havingMinimum3char_returnFalse2() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkFirstName("Sa");
+        Assert.assertEquals(false, result);
+    }
+
 
     @Test
     public void LastName_havingMinimum3char_returnTrue() {
         UserDetails userDetails = new UserDetails();
         boolean result = userDetails.checkLastName("Dagwar");
-        Assert.assertEquals(true, result);
+        Assert.assertEquals(true,result);
+    }
+
+    @Test
+    public void LastName_havingMinimum3char_returnFalse() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkLastName("dagwar");
+        Assert.assertEquals(false,result);
     }
 
     @Test
@@ -25,5 +47,13 @@ public class UserRegistrationTest {
         boolean result = userDetails.checkEmail("abc.xyz@bl.co.in");
         Assert.assertEquals(true, result);
     }
+
+    @Test
+    public void Email_havingValidPattern_returnFalse() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkEmail("abc.xyz@a.in");
+        Assert.assertEquals(false, result);
+    }
+
 
 }
