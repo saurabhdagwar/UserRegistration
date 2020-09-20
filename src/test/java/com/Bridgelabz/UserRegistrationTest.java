@@ -26,4 +26,11 @@ public class UserRegistrationTest {
         Assert.assertEquals(true, result);
     }
 
+    @Test
+    public void MobileNumber_10DigitMobileNumber_returnTrue() {
+        UserDetails userDetails = new UserDetails();
+        boolean result = userDetails.checkMobile("91 8856852313");
+        Assert.assertEquals(true,result);
+    }
+
 }
