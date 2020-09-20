@@ -37,7 +37,8 @@ public class UserRegistrationTest {
     @Test
     public void Password_pattern_returnTrue() {
         UserDetails userDetails = new UserDetails();
-        boolean result = userDetails.checkPassword("Pass123@#$4");
+        boolean result = userDetails.checkPassword("Passrc@112");
         Assert.assertEquals(true,result);
     }
+
 }
