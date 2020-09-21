@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-21T03:29:37" hostname="DESKTOP-JVE4C36" time="0.003">
-  <properties/>
-  <testcase name="Password_exactly_1Symbol_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

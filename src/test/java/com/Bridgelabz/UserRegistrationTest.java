@@ -26,7 +26,6 @@ public class UserRegistrationTest {
         Assert.assertEquals(false, result);
     }
 
-
     @Test
     public void LastName_havingMinimum3char_returnTrue() {
         UserDetails userDetails = new UserDetails();
@@ -65,7 +64,7 @@ public class UserRegistrationTest {
     @Test
     public void MobileNumber_10DigitMobileNumber_returnFalse() {
         UserDetails userDetails = new UserDetails();
-        boolean result = userDetails.checkMobile("8856852313");
+        boolean result = userDetails.checkMobile("86852313");
         Assert.assertEquals(false, result);
     }
 
@@ -107,7 +106,6 @@ public class UserRegistrationTest {
         boolean result = userDetails.checkPassword("Password123");
         Assert.assertEquals(false,result);
     }
-
-
-
 }
+
+
