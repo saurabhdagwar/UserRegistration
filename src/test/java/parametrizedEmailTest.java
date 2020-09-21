@@ -50,4 +50,5 @@ public class parametrizedEmailTest {
         boolean result = userDetails.checkEmail(this.emailTest);
         Assert.assertEquals(this.expectedresult, result);
     }
+
 }
