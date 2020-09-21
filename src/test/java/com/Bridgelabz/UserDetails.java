@@ -6,7 +6,7 @@ public class UserDetails {
     public static final String NAME_PATTERN = "^[A-Z]{1}[a-z]{2,}$";
     public static final String EMAIL_PATTERN = "^[a-zA-Z0-9]+([._+#][a-zA-Z0-9]+)*@[a-zA-Z1-9]+.[a-zA-Z]{2,4}(.[a-zA-Z]{2,2})?$";
     public static final String MOBILE_PATTERN = "(^[0-9]{1,3}[ ]+)?[6-9]+[0-9]{9}$";
-    public static final String PASSWORD_PATTERN = "^[0-9A-Za-z!@#$$%^&*]{8,}$";
+    public static final String PASSWORD_PATTERN = "^[0-9A-Za-z!@#$$%^&*]{8,20}$";
 
     public boolean checkFirstName(String FirstName) {
         Pattern pattern = Pattern.compile(NAME_PATTERN);
