@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-20T17:47:36" hostname="DESKTOP-JVE4C36" time="0.004">
+<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-22T10:24:26" hostname="DESKTOP-JVE4C36" time="0.005">
   <properties/>
   <testcase name="FirstName_havingMinimum3char_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.003"/>
   <testcase name="FirstName_havingMinimum3char_returnFalse2" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
