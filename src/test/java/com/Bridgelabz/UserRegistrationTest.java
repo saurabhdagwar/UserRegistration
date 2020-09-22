@@ -51,7 +51,7 @@ public class UserRegistrationTest {
     @Test
     public void Email_havingValidPattern_returnFalse() {
         UserDetails userDetails = new UserDetails();
-        boolean result = userDetails.checkEmail("abc.xyz@a.in");
+        boolean result = userDetails.checkEmail("abc.xyz@.in");
         Assert.assertEquals(false, result);
     }
 
