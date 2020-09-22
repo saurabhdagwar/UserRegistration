@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-20T18:03:10" hostname="DESKTOP-JVE4C36" time="0.004">
+<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-09-22T10:33:29" hostname="DESKTOP-JVE4C36" time="0.021">
   <properties/>
-  <testcase name="MobileNumber_10DigitMobileNumber_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.004"/>
+  <testcase name="LastName_havingMinimum3char_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.003"/>
+  <testcase name="FirstName_havingMinimum3char_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="LastName_havingMinimum3char_returnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="MobileNumber_10DigitMobileNumber_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.006"/>
+  <testcase name="MobileNumber_10DigitMobileNumber_returnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="FirstName_havingMinimum3char_returnFalse2" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="FirstName_havingMinimum3char_returnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="Email_havingValidPattern_returnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="Email_havingValidPattern_returnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

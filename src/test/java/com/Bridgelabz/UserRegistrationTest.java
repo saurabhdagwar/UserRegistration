@@ -51,7 +51,7 @@ public class UserRegistrationTest {
     @Test
     public void Email_havingValidPattern_returnFalse() {
         UserDetails userDetails = new UserDetails();
-        boolean result = userDetails.checkEmail("abc.xyz@a.in");
+        boolean result = userDetails.checkEmail("abc.xyz@.in");
         Assert.assertEquals(false, result);
     }
 
@@ -65,7 +65,7 @@ public class UserRegistrationTest {
     @Test
     public void MobileNumber_10DigitMobileNumber_returnFalse() {
         UserDetails userDetails = new UserDetails();
-        boolean result = userDetails.checkMobile("8856852313");
+        boolean result = userDetails.checkMobile("56852313");
         Assert.assertEquals(false, result);
     }
 
