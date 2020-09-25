@@ -37,10 +37,10 @@ public class parametrizedEmailTest {
                 {"abc@gmail.com.com", true},
                 {"abc.@gmail.com", false},
                 {"abc@gmail.com.com", true},
-                {"abc@abc@gmail.com",false},
-                {"abc+100@gmail.com",true},
-                {"abc@gmail.com.1a",false},
-                {"abc@gmail.com.aa.au",false}
+                {"abc@abc@gmail.com", false},
+                {"abc+100@gmail.com", true},
+                {"abc@gmail.com.1a", false},
+                {"abc@gmail.com.aa.au", false}
         });
     }
 

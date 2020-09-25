@@ -19,8 +19,8 @@ public class UserDetails {
     }
 
     public boolean checkEmail(String email) {
-    Pattern pattern = Pattern.compile(EMAIL_PATTERN);
-    return pattern.matcher(email).matches();
+        Pattern pattern = Pattern.compile(EMAIL_PATTERN);
+        return pattern.matcher(email).matches();
     }
 
     public boolean checkMobile(String mobileNumber) {

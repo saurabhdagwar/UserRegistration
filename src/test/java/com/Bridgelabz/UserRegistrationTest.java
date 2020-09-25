@@ -3,7 +3,6 @@ package com.Bridgelabz;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class UserRegistrationTest {
     @Test
     public void givingFirstName_havingMinimum3char_shouldReturnTrue() {
