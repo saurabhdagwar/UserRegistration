@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Bridgelabz.UserRegistrationTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-09-25T19:08:16" hostname="DESKTOP-JVE4C36" time="0.014">
+  <properties/>
+  <testcase name="givingPassword_min8char_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.005"/>
+  <testcase name="givingMobileNumber_10DigitMobileNumber_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingLastName_havingMinimum3char_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingPassword_AtLeast1uppercase_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingFirstName_havingMinimum3char_shouldReturnFalse2" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingPassword_exactly1Symbol_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingPassword_min8char_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givingPassword_AtLeast1Number_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingFirstName_havingMinimum3char_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givingEmail_havingValidPattern_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givingEmail_havingValidPattern_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingFirstName_havingMinimum3char_shouldReturnFalse" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingLastName_havingMinimum3char_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingPassword_AtLeast1upperCase_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givingMobileNumber_10DigitMobileNumber_shouldReturnTrue" classname="com.Bridgelabz.UserRegistrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
